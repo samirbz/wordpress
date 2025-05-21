@@ -1,9 +1,10 @@
-# Ignore everything except wp-content
+# Ignore everything
 *
+
+# But not these files and folders
 !.gitignore
-!wp-content/
 !docker-compose.yml
 !README.md
+!wp-content/
+!wp-content/**/*
 
-# Inside wp-content, you might want to exclude uploads
-wp-content/uploads/
